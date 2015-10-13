@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var work = {
 	"jobs": [
 		{
@@ -214,8 +214,7 @@ $("#mapDiv").append(googleMap);
 
 
 
-||||||| merged common ancestors
-=======
+
 var work = {
 	"jobs": [
 		{
