@@ -197,7 +197,7 @@ function inName(name) {
 
 $("#mapDiv").append(googleMap);
 
-$("#main").append(internationalizeButton);
+//$("#main").append(internationalizeButton);
 
 
 
