@@ -49,9 +49,9 @@ var bio = {
 	"name": "James Peterson",
 	"role": "Front-End Developer",
 	"contacts": {
-		"mobile": "123-456-7890",
-		"email": "boondami@gmail.com",
-		"github": "https://github.com/Boondami",
+		"mobile": "(123) 456 - 7890",
+		"email": "jpeterson903@yahoo.com",
+		"github": "github.com/jpetersun",
 		"twitter": "https://twitter.com/JPetersonDev",
 		"location": "Temecula, CA, US"
 	},
