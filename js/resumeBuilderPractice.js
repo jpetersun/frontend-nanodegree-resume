@@ -13,9 +13,9 @@ var bio = {
 	"name": "James Thomas Michael Peterson",
 	"role": "Front-End Developer",
 	"contacts": {
-		"cellPhone": "951 - 972 - 6767",
-		"email": "boondami@gmail.com",
-		"address": "43031 Camino Caruna",
+		"cellPhone": "XXXXXXXXX",
+		"email": "XXXXXXXXXX",
+		"address": "XXXXXX",
 	},
 	"pictureURL": "images/me.jpg",
 	"welcomeMessage": "Hello I am James and I am a web developer.",
