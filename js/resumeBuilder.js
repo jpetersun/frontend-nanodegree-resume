@@ -1,25 +1,25 @@
 var work = {
 	"jobs": [
 		{
-			"employer": "Millennium Financial Management",
-			"title": "Tax preparer Assistant",
-			"location": "Temecula, CA, US",
-			"years": "2010-2013",
-			"description": "Preperation of personal and corporate taxes."
-		},
-		{
-			"employer": "McDonald's",
-			"title": "Kitchen Crew member, Maintenance",
-			"location": "Temecula, CA, US",
-			"years": "2013-2015",
-			"description": "Preparation of food and keeping facility clean and orderly."
-		},
-		{
 			"employer": "Vince's Spaghetti Express",
 			"title": "Food preparer",
 			"location": "Temecula, CA, US",
 			"years": "2015-Present",
-			"description": "Prepartion of food and keeping facility clean and orderly."
+			"description": "Preparing food to order and handling cash or credit card transactions."
+		},
+		{
+			"employer": "McDonald's",
+			"title": "Maintenance",
+			"location": "Temecula, CA, US",
+			"years": "2013-2015",
+			"description": "Performed general maintenance and cleaning duties."
+		},
+		{
+			"employer": "Millennium Financial Management",
+			"title": "Tax preparer Assistant",
+			"location": "Temecula, CA, US",
+			"years": "2010-2013",
+			"description": "Prepared personal and corporate taxes."
 		}
 	]
 }
@@ -27,65 +27,192 @@ var work = {
 var projects = {
 	"projects": [
 		{
-			"title": "Portfolio Site",
-			"dates": "8/17/15-9/6/15",
-			"description": "Built a website using HTML, CSS, and the Bootstrap framework.",
+			"title": "<a href='https://jpetersun.github.io/'</a>Portfolio Site",
+			"dates": "August 2015",
+			"url": "https://jpetersun.github.io/",
+			"description": "Built a custom personal website with images, descriptions, and links to other hosted projects. <br>Arranged HTML, CSS, and Bootstrap effectively to make website responsive and accessible across all platforms.",
 			"images": [
-					"images/portfolio_site.jpg"
+					"images/portfolio-site-800_medium_2x.png"
 			]
 		},
 		{
-			"title": "Game",
-			"dates": "9/10/15-9/25/15",
-			"description": "Made this sweet game.",
+			"title": "<a href='https://jpetersun.github.io/frontend-nanodegree-resume/'</a>Interactive Resume",
+			"dates": "September 2015",
+			"description": "Developed an interactive resume read from a JSON file that dynamically displays content within a given template. <br>Constructed with JavaScript and jQuery making use of objects, functions, conditionals, and control structures.",
 			"images": [
-					"images/game.jpg"
+					"images/interactive-resume-800_medium_2x.jpg"
+			]
+		},
+		{
+			"title": "<a href='http://jpetersun.github.io/frontend-nanodegree-arcade-game/'</a>Classic Arcade Game Clone",
+			"dates": "September 2015",
+			"url": "http://jpetersun.github.io/frontend-nanodegree-arcade-game/",
+			"description": "Utilized art assets and game engine provided by Udacity to clone the platform arcade game Frogger. <br>Coded player, enemies, and movement using Object-Oriented JavaScript with the pseudo-classical pattern.",
+			"images": [
+					"images/arcade-game-800_medium_2x.jpg"
+			]
+		},
+		{
+			"title": "<a href='http://jpetersun.github.io/frontend-nanodegree-mobile-portfolio/'</a>Website Optimization",
+			"dates": "October 2015",
+			"url": "http://jpetersun.github.io/frontend-nanodegree-mobile-portfolio/",
+			"description": "Improved the critical rendering path to load a website under 1 second and to achieve a PageSpeed score above 90. <br>Implemented more efficient methods for a website to maintain 60 frames per second.",
+			"images": [
+					"images/web-perf-2-800_medium_2x.jpg"
 			]
 		}
 	]
+}
+
+var summary = {
+	"story": "My fascination for building and tinkering with computers naturally led me into programming as I've always enjoyed the process of learning and teaching myself. <br>This summer I experimented with an online calculus class and various coding tutorials to discover my passion for programming and the opportunities online education brings. <br> I decided to focus my attention on gaining the practical skills of becoming a front-end web developer."
 }
 
 var bio = {
 	"name": "James Peterson",
 	"role": "Front-End Developer",
 	"contacts": {
-		"mobile": "123-456-7890",
+		"mobile": "951-972-6767",
 		"email": "jpeterson903@yahoo.com",
-		"github": "https://github.com/jpetersun",
-		"twitter": "https://twitter.com/JPetersonDev",
+		"github": "jpetersun",
 		"location": "Temecula, CA, US"
 	},
-	"welcomeMessage": "I am James and I am a Web Developer",
+	"welcomeMessage": "Hello, I'm James, and I create captivating interactive experiences ",
 	"bioPic": "images/me.jpg",
 	"skills": [
-		"HTML", "CSS", "JavaScript"
+		"HTML5", "CSS3", "JavaScript", "jQuery", "Python"
 	]
 }
 
 var education = {
 	"schools": [
 		{
+			"name": "Udacity",
+			"location": "Mountainview, CA, US",
+			"degree": "Nanodegree",
+			"majors": "Front-End Web Development",
+			"dates": "2015 - 2015",
+			"url": "https://www.udacity.com/"
+		},
+		{
 			"name": "Palomar College",
 			"location": "San Marcos, CA, US",
-			"degree": "GE",
-			"majors": "",
-			"dates": "2014 - 2015",
+			"degree": "Dropout",
+			"majors": "General Education",
+			"dates": "August 2014 - May 2015",
 			"url": "http://www2.palomar.edu/"
 		}
 	],
 	"onlineCourses": [
 		{
+			"title": "Calculus One",
+			"school": "Coursera",
+			"dates": "May 2015 - July 2015",
+			"url": "https://www.coursera.org/learn/calculus1"
+		},
+		{
+			"title": "HTML & CSS",
+			"school": "Codecademy",
+			"dates": "August 2015",
+			"url": "https://www.codecademy.com/en/tracks/web"
+		},
+		{
+			"title": "JavaScript",
+			"school": "Codecademy",
+			"dates": "August 2015",
+			"url": "https://www.codecademy.com/en/tracks/javascript"
+		},
+
+		{
+			"title": "jQuery",
+			"school": "Codecademy",
+			"dates": "August 2015",
+			"url": "https://www.codecademy.com/en/tracks/jquery"
+		},
+		{
+			"title": "Intro to HTML and CSS",
+			"school": "Udacity",
+			"dates": "August 2015",
+			"url": "https://www.udacity.com/course/intro-to-html-and-css--ud304-nd"
+		},
+		{
 			"title": "Responsive Web Design Fundamentals",
 			"school": "Udacity",
-			"dates": "2015",
+			"dates": "September 2015",
 			"url": "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"
 		},
 		{
-			"title": "Calculus One",
-			"school": "Coursera",
-			"dates": "2015",
-			"url": "https://www.coursera.org/learn/calculus1"
-		}
+			"title": "Responsive Images",
+			"school": "Udacity",
+			"dates": "September 2015",
+			"url": "https://www.udacity.com/course/responsive-images--ud882-nd"
+		},
+		{
+			"title": "JavaScript Basics",
+			"school": "Udacity",
+			"dates": "September 2015",
+			"url": "https://www.udacity.com/course/javascript-basics--ud804-nd"
+		},
+		{
+			"title": "Intro to jQuery",
+			"school": "Udacity",
+			"dates": "September 2015",
+			"url": "https://www.udacity.com/course/intro-to-jquery--ud245-nd"
+		},
+		{
+			"title": "Object-Oriented JavaScript",
+			"school": "Udacity",
+			"dates": "September 2015",
+			"url": "https://www.udacity.com/course/object-oriented-javascript--ud015-nd"
+		},
+		{
+			"title": "HTML5 Canvas",
+			"school": "Udacity",
+			"dates": "September 2015",
+			"url": "https://www.udacity.com/course/html5-canvas--ud292-nd"
+		},
+		{
+			"title": "How to Use Git and GitHub",
+			"school": "Udacity",
+			"dates": "September 2015",
+			"url": "https://www.udacity.com/course/how-to-use-git-and-github--ud775-nd"
+		},
+		{
+			"title": "Website Performance Optimization",
+			"school": "Udacity",
+			"dates": "October 2015",
+			"url": "https://www.udacity.com/course/website-performance-optimization--ud884-nd"
+		},
+		{
+			"title": "Browser Rendering Optimization",
+			"school": "Udacity",
+			"dates": "October 2015",
+			"url": "https://www.udacity.com/course/browser-rendering-optimization--ud860-nd"
+		},
+		{
+			"title": "Intro to AJAX",
+			"school": "Udacity",
+			"dates": "October 2015",
+			"url": "https://www.udacity.com/course/intro-to-ajax--ud110-nd"
+		},
+		{
+			"title": "JavaScript Design Patterns",
+			"school": "Udacity",
+			"dates": "November 2015",
+			"url": "https://www.udacity.com/course/javascript-design-patterns--ud989-nd"
+		},
+		{
+			"title": "Learn Backbone.js",
+			"school": "Udacity",
+			"dates": "November 2015",
+			"url": "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"
+		},
+		{
+			"title": "JavaScript Testing",
+			"school": "Udacity",
+			"dates": "November 2015",
+			"url": "https://www.udacity.com/course/javascript-testing--ud549-nd"
+		},
 	]
 }
 
@@ -98,20 +225,21 @@ work.display = function() {
 		var formattedEmployerTitle = formattedEmployer + formattedTitle;
 		var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].years);
 		var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
+
 		$(".work-entry:last").append(formattedEmployerTitle, formattedDates, formattedDescription);
 	}
 }
-
-
 
 projects.display = function() {
 	for (project in projects.projects) {
 		$("#projects").append(HTMLprojectStart);
 
+		var formattedUrl = HTMLprojectTitle.replace("#", projects.projects[project].url);
 		var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title);
 		var formattedDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
 		var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].description);
-		$(".project-entry:last").append(formattedTitle, formattedDates, formattedDescription);
+		$(".project-entry:last").append(formattedTitle);
+		$(".project-entry:last").append(formattedDates, formattedDescription);
 
 		if (projects.projects[project].images.length > 0) {
 			for (image in projects.projects[project].images) {
@@ -121,7 +249,6 @@ projects.display = function() {
 		}
 	}
 }
-
 
 education.display = function() {
 	for (school in education.schools) {
@@ -133,7 +260,8 @@ education.display = function() {
 		var formattedDates = HTMLschoolDates.replace("%data%", education.schools[school].dates);
 		var formattedLocation = HTMLschoolLocation.replace("%data%", education.schools[school].location);
 		var formattedMajor = HTMLschoolMajor.replace("%data%", education.schools[school].majors);
-		$(".education-entry:last").append(formattedName, formattedDegree, formattedDates, formattedLocation, formattedMajor);
+		$(".education-entry:last").append(formattedName + formattedDegree);
+		$(".education-entry:last").append(formattedDates, formattedLocation, formattedMajor);
 	}
 	$("#education").append(HTMLonlineClasses);
 	for (course in education.onlineCourses) {
@@ -142,8 +270,9 @@ education.display = function() {
 		var formattedTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[course].title);
 		var formattedSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
 		var formattedDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);
-		var formattedURL = HTMLonlineURL.replace("%data%", education.onlineCourses[course].url);
-		$(".education-entry:last").append(formattedTitle, formattedSchool, formattedDates, formattedURL);
+		var formattedURL = HTMLonlineURL.replace(/"#"/g, education.onlineCourses[course].url);
+		$(".education-entry:last").append(formattedTitle + formattedSchool);
+		$(".education-entry:last").append(formattedDates, formattedURL);
 	}
 }
 
@@ -156,7 +285,9 @@ bio.display = function() {
 	var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
 	var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 	var formattedImage = HTMLbioPic.replace("%data%", bio.bioPic);
+	var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 	$("#header").prepend(formattedImage);
+	$("#header").append(formattedWelcomeMsg);
 	$("#topContacts").append(formattedMobile, formattedEmail, formattedGithub, formattedLocation);
 	$("#footerContacts").append(formattedMobile, formattedEmail, formattedGithub, formattedLocation);
 
@@ -172,15 +303,21 @@ bio.display = function() {
 		if(bio.skills.length > 0) {
 		$("#header").append(HTMLskillsStart);
 
-		var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
-		$("#skills").append(formattedSkill);
-		formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
-		$("#skills").append(formattedSkill);
-		formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
-		$("#skills").append(formattedSkill);
+		if (bio.skills.length > 0) {
+			for (skill in bio.skills) {
+				var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
+				$("#skills:last").append(formattedSkill);
+			}
+		}
 	}
 }
 
+summary.display = function() {
+	var formattedSummary = HTMLsummary.replace("%data%", summary.story)
+	$("#summary").append(formattedSummary);
+}
+
+summary.display();
 education.display();
 projects.display();
 work.display();
