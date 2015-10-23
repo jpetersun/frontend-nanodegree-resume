@@ -18,15 +18,20 @@ h6 {
   overflow: auto;
 }
 
+
 .education-entry,
 .work-entry,
 .project-entry {
   padding: 0 5%;
 }
 
+.education-entry a {
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #fff;
   line-height: 48px;
   display: inline;
 }
@@ -57,7 +62,7 @@ h2,
 h3,
 h4,
 h5 {
-  padding:10px 5%;
+  padding: 10px 5%;
 
 }
 
@@ -86,7 +91,7 @@ p {
 }
 
 a {
-  color: #1199c3;
+  color: #c12640;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -100,16 +105,16 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #c12640;
   display: none;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #a71930;
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #c12640;
 }
 
 .white-text {
@@ -129,7 +134,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #333;
 }
 
 .flex-box {
@@ -162,6 +167,7 @@ img {
 }
 
 span {
+  color: #c12640 ;
   padding: 5px;
 }
 
@@ -212,4 +218,19 @@ span {
   .biopic {
     display: block;
   }
+}
+
+hr {
+  background-color: #a71930;
+  border: none;
+  height: 2px;
+}
+
+#footerContacts {
+  background-color: #333;
+}
+
+#summary p {
+  padding: 0 5%;
+}
 }
