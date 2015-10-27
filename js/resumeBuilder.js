@@ -36,7 +36,7 @@ var projects = {
 			]
 		},
 		{
-			"title": "<a href='https://jpetersun.github.io/frontend-nanodegree-resume/'</a>Interactive Resume",
+			"title": "Interactive Resume",
 			"dates": "September 2015",
 			"description": "Developed an interactive resume read from a JSON file that dynamically displays content within a given template. <br>Constructed with JavaScript and jQuery making use of objects, functions, conditionals, and control structures.",
 			"images": [
