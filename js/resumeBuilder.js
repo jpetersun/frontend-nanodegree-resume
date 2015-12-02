@@ -80,7 +80,7 @@ var bio = {
 	"welcomeMessage": "Hello, I'm James, and I create captivating interactive experiences ",
 	"bioPic": "images/me.jpg",
 	"skills": [
-		"HTML5", "CSS3", "JavaScript", "jQuery", "Python"
+		"HTML5", "CSS3", "JavaScript", "jQuery"
 	]
 }
 
