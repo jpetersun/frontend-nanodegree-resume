@@ -97,7 +97,7 @@ var education = {
 		{
 			"name": "Palomar College",
 			"location": "San Marcos, CA, US",
-			"degree": "Dropout",
+			"degree": "",
 			"majors": "General Education",
 			"dates": "August 2014 - May 2015",
 			"url": "http://www2.palomar.edu/"
