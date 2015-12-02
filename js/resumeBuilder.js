@@ -65,7 +65,7 @@ var projects = {
 }
 
 var summary = {
-	"story": "My fascination for building and tinkering with computers naturally led me into programming as I've always enjoyed the process of learning and teaching myself. <br>This summer I experimented with an online calculus class and various coding tutorials to discover my passion for programming and the opportunities online education brings. <br> I decided to focus my attention on gaining the practical skills of becoming a front-end web developer."
+	"story": "My fascination for building and tinkering with computers naturally led me into programming as I've always enjoyed the process of learning and teaching myself. <br>I experimented with an online calculus class and various coding tutorials to discover my passion for programming and the opportunities online education brings. <br> I decided to focus my attention on gaining the practical skills of becoming a front-end web developer."
 }
 
 var bio = {
