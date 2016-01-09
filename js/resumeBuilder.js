@@ -65,7 +65,7 @@ var projects = {
 			"title": "<a href='http://jpetersun.github.io/frontend-nanodegree-neighborhood-map/'</a>Neighborhood Map",
 			"dates": "November 2015",
 			"url": "http://jpetersun.github.io/frontend-nanodegree-neighborhood-map/",
-			"description": "Single-page application built with the Knockout.js framework. <br>Full page map of nearby golf courses with Yelp information inside the infowindows.",
+			"description": "Single-page application built with the Knockout.js framework. <br> Full page map of nearby golf courses with Yelp information inside the infowindows.",
 			"images": [
 			"images/neighborhood-map-800_medium_2x.jpg"
 			]
@@ -74,7 +74,7 @@ var projects = {
 }
 
 var summary = {
-	"story": "My fascination for building and tinkering with computers naturally led me into programming as I've always enjoyed the process of learning and teaching myself. <br>I experimented with an online calculus class and various coding tutorials to discover my passion for programming and the opportunities online education brings. <br> I decided to focus my attention on gaining the practical skills of becoming a front-end web developer."
+	"story": "My fascination for building and tinkering with computers naturally led me into programming as I've always enjoyed the process of learning and teaching myself. <br>This summer I experimented with an online calculus class and various coding tutorials to discover my passion for programming and the opportunities online education brings. <br> I decided to focus my attention on gaining the practical skills of becoming a front-end web developer."
 }
 
 var bio = {
@@ -89,7 +89,7 @@ var bio = {
 	"welcomeMessage": "Hello, I'm James, and I create captivating interactive experiences ",
 	"bioPic": "images/me.jpg",
 	"skills": [
-		"HTML5", "CSS3", "JavaScript", "jQuery"
+		"HTML5", "CSS3", "JavaScript", "jQuery", "Python"
 	]
 }
 
@@ -106,7 +106,7 @@ var education = {
 		{
 			"name": "Palomar College",
 			"location": "San Marcos, CA, US",
-			"degree": "",
+			"degree": "Dropout",
 			"majors": "General Education",
 			"dates": "August 2014 - May 2015",
 			"url": "http://www2.palomar.edu/"
@@ -344,7 +344,3 @@ function inName(name) {
 $("#mapDiv").append(googleMap);
 
 //$("#main").append(internationalizeButton);
-
-
-
-
