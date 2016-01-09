@@ -60,6 +60,15 @@ var projects = {
 			"images": [
 					"images/web-perf-2-800_medium_2x.jpg"
 			]
+		},
+		{
+			"title": "<a href='http://jpetersun.github.io/frontend-nanodegree-neighborhood-map/'</a>Neighborhood Map",
+			"dates": "November 2015",
+			"url": "http://jpetersun.github.io/frontend-nanodegree-neighborhood-map/",
+			"description": "Single-page application built with the Knockout.js framework. <br> Full page map of nearby golf courses with Yelp information inside the infowindows.",
+			"images": [
+			"images/neighborhood-map-800_medium_2x.jpg"
+			]
 		}
 	]
 }
