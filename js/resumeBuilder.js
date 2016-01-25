@@ -71,7 +71,7 @@ var projects = {
 			]
 		},
 		{
-		"title": "<a href='http://jpetersun.github.io/frontend-nanodegree-feedreader/'</a>Neighborhood Map",
+		"title": "<a href='http://jpetersun.github.io/frontend-nanodegree-feedreader/'</a>Feed Reader",
 		"dates": "December 2015",
 		"url": "http://jpetersun.github.io/frontend-nanodegree-feedreader/",
 		"description": "Testing a Javascript web-based application with the Jasmine framework.",
