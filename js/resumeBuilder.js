@@ -4,7 +4,7 @@ var work = {
 			"employer": "Vince's Spaghetti Express",
 			"title": "Food preparer",
 			"location": "Temecula, CA, US",
-			"years": "2015-Present",
+			"years": "2015-2016",
 			"description": "Preparing food to order and handling cash or credit card transactions."
 		},
 		{
@@ -68,6 +68,15 @@ var projects = {
 			"description": "Single-page application built with the Knockout.js framework. <br> Full page map of nearby golf courses with Yelp information inside the infowindows.",
 			"images": [
 			"images/neighborhood-map-800_medium_2x.jpg"
+			]
+		},
+		{
+		"title": "<a href='http://jpetersun.github.io/frontend-nanodegree-feedreader/'</a>Neighborhood Map",
+		"dates": "December 2015",
+		"url": "http://jpetersun.github.io/frontend-nanodegree-feedreader/",
+		"description": "Testing a Javascript web-based application with the Jasmine framework.",
+		"images": [
+				"images/feed-reader-800_medium_2x.jpg"
 			]
 		}
 	]
