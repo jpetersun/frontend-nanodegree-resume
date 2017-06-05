@@ -90,7 +90,7 @@ var bio = {
 	"name": "James Peterson",
 	"role": "Front-End Developer",
 	"contacts": {
-		"mobile": "951-972-6767",
+		"mobile": "951-676-6767",
 		"email": "jpeterson903@yahoo.com",
 		"github": "jpetersun",
 		"location": "Temecula, CA, US"
